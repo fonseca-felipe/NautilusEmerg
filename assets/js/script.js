@@ -100,7 +100,7 @@ function startQuiz() {
   displayQuestion();
 
   //set total time depending on number of questions
-  time = questions.length * 69;
+  time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
   //executes function "countdown" every 1000ms to update time and display on page
   intervalID = setInterval(countdown, 1000);
