@@ -6,21 +6,22 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Javascript Quiz</title>
-    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/logo_app_nautilus.png" type="image/x-icon">
+    
 </head>
 
 <body>
     <header>
         <a id=leaderboard-link>Visualizar Histórico <i class="fas fa-hand-point-left fa-lg"></i>
         </i></a> 
-        <p>Nautilus Emergência</p> 
+        <img src="./assets/images/nautilus.logo.branco(1)(1)(1).png">
         <time>Tempo: <span id="time"></span></time>
     </header>
 
     <main>
         <div id=start-card class="card">
             <h2 id=title>Guia de Intubação Nautilus</h2>
-            <p>Você deve realizar o intubação traqueal em tempo hábil e com segurança.<br><br> Sua pontuação dependerá de seu desempenho.<br><br>Boa sorte!<br><br>O número zero significa a morte de seu paciente</p>
+            <p>Você deve realizar o intubação traqueal em tempo hábil e com segurança.<br><br> Sua pontuação dependerá de seu desempenho.<br><br>Boa sorte!<br></p>
             <button id=start-button class="button">Iniciar Procedimento</button>
         </div>
 
@@ -31,8 +32,7 @@
             <div id=quiz-options>
                 <button id=option0 class="button option-button"></button>
                 <button id=option1 class="button option-button"></button>
-                <button id=option2 class="button option-button"></button>
-                <button id=option3 class="button option-button"></button>
+               
             </div>
 
             <div id=result-div>
@@ -57,8 +57,12 @@
             <ol id="highscore-list">
             </ol>
             <div class="inline-buttons">
-                <button id="back-button" class="button">Retornar</button>
-                <button id="clear-button" class="button">Limpar Histórico</button>
+                <button id="back-button" class="button" style="margin: 0 15px;">Retornar</button>
+                <button id="link-button" class="button" style="margin: 0 15px;" onclick="location.href='https:/www.amazon.com.br/Ingl%C3%AAs-para-Doutores-Guia-M%C3%A9dico-ebook/dp/B07RG61D6J/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2W2BIIU6UQEY1&keywords=ingles+para+doutores&qid=1648692478&sprefix=ingles+para+doutore%2Caps%2C216&sr=8-1'" type="button">
+                    Ajuda</button>
+                <button id="clear-button" class="button" style="margin: 0 15px;">Limpar Histórico</button>
+                
+
             </div>
         </div>
 

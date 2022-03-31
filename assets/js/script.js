@@ -2,60 +2,64 @@
 const questions = [
   {
     questionText: "Qual o estado de consciência?",
-    options: ["1. Consciente", "2. Torporoso", "3. Inconsciente", "."],
+    options: ["1. Consciente", "2. Inconsciente"],
     answer: "1. Consciente",
   },
   {
     questionText: "Qual a saturação de oxigênio?",
     options: [
-      "1. Maior que 90%",
-      "2. Entre 60% e 89%",
-      "3. Abaixo de 60%",
-      "."
+      "1. Acima de 90%",
+      "2. Abaixo de 90%",
+      
       
     ],
-    answer: "1. Maior que 90%",
+    answer: "1. Acima de 90%",
   },
   {
     questionText:
-      "Há instabilidade hemodinâmica",
-    options: ["1. PAS>100", "2. PAS entre 80 e 99", "3. PAS menor que 80", ""],
-    answer: "1. PAS>100",
+      "Há instabilidade hemodinâmica?",
+    options: ["1. Sim", "2. Não"],
+    answer: "1. Sim",
   },
   {
     questionText:
       "Qual a idade?",
     options: [
-      "1. Maior que 70",
-      "2. Entre 60 e 70",
-      "3. Abaixo dos 60",
-      ".",
+      "1. Acima de 60 anos",
+      "2. Abaixo de 60 anos",
+    
       
     ],
-    answer: "3. Abaixo dos 60",
+    answer: "1. Acima de 60 anos",
   },
   {
     questionText:
       "Chamou por ajuda?",
-    options: ["1. Sim", "2. Não", ".", "."],
+    options: ["1. Sim", "2. Não"],
+    answer: "1. Sim",
+  },
+  {
+    questionText:
+      "Preparou todos os recursos materiais?",
+    options: ["1. Sim", "2. Não"],
     answer: "1. Sim",
   },
   {
     questionText:
       "Delegou as tarefas para o time?",
-    options: ["1. Sim", "2. Não", ".", "."],
+    options: ["1. Sim", "2. Não"],
     answer: "1. Sim",
   },
   {
     questionText:
-      "Tem fatores preditivos de viaérea difícil?",
-    options: ["1. Sim", "2. Não", ".", "."],
+      "Tem fatores preditivos de via aérea difícil?",
+    options: ["1. Sim", "2. Não"],
     answer: "1. Sim",
   },
   {
     questionText:
       "Intubação bem-sucedida?",
-    options: ["1. Sim", "2. Não", ".", "."],
+    options: ["1. Sim", "2. Não"],
     answer: "1. Sim",
   },
  
