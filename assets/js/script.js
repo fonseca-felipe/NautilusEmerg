@@ -4,6 +4,7 @@ const questions = [
     questionText: "Qual o estado de consciência?",
     options: ["1. Consciente", "2. Inconsciente"],
     answer: "1. Consciente",
+    
   },
   {
     questionText: "Qual a saturação de oxigênio?",
@@ -105,7 +106,6 @@ function startQuiz() {
 
   //set total time depending on number of questions
   time = 500;
-
   //executes function "countdown" every 1000ms to update time and display on page
   intervalID = setInterval(countdown, 1000);
 
