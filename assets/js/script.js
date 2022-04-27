@@ -1,68 +1,75 @@
 //store question text, options and answers in an array
 const questions = [
   {
-    questionText: "Qual o estado de consciência?",
-    options: ["1. Consciente", "2. Inconsciente"],
-    answer: "1. Consciente",
+    questionText: "Imagem do paciente: Peso 85kg; pescoço curto e com pouca mobilidade. História de roncos e apneia do sono. Monitoração: Ritmo sinusal; PA: 130x90; Fc: 100; SaTO2: 92%. Quão emergencial parece ser essa situação?",
+    options: ["Muito emergencial", "Pouco emergencial"],
+    answer: "Muito emergencial",
     
   },
   {
-    questionText: "Qual a saturação de oxigênio?",
+    questionText: "Imagem do paciente: Peso 85kg; pescoço curto e com pouca mobilidade. História de roncos e apneia do sono. Monitoração: Ritmo sinusal; PA: 130x90; Fc: 100; SaTO2: 92%. Quão dificil pode ser o manuseio da via aérea nesse caso?",
     options: [
-      "1. Acima de 90%",
-      "2. Abaixo de 90%",
+      "Muito Difícil",
+      "Moderadamente dificil",
       
       
     ],
-    answer: "1. Acima de 90%",
+    answer: "Muito Difícil",
   },
   {
     questionText:
-      "Há instabilidade hemodinâmica?",
-    options: ["1. Sim", "2. Não"],
-    answer: "1. Sim",
+      "Imagem do paciente: Peso 85kg; pescoço curto e com pouca mobilidade. História de roncos e apneia do sono. Monitoração: Ritmo sinusal; PA: 130x90; Fc: 100; SaTO2: 92%.Qual a técnica de sua escolha para realizar a IOT nesse paciente?",
+    options: ["Sedação leve", "Sequencia rápida"],
+    answer: "Sequencia rápida",
   },
   {
     questionText:
-      "Qual a idade?",
+      "Imagem do paciente: Peso 85kg; pescoço curto e com pouca mobilidade. História de roncos e apneia do sono. Monitoração: Ritmo sinusal; PA: 130x90; Fc: 100; SaTO2: 92%. Qual a importância da sistematização para o sucesso no processo de IOT?",
     options: [
-      "1. Acima de 60 anos",
-      "2. Abaixo de 60 anos",
+      "Ganhar tempo hábil",
+      "Evitar a hipóxia severa",
     
       
     ],
-    answer: "1. Acima de 60 anos",
+    answer: "Ganhar tempo hábil",
   },
   {
     questionText:
-      "Chamou por ajuda?",
-    options: ["1. Sim", "2. Não"],
-    answer: "1. Sim",
+      "MONITORIZAÇÃO: Ritmo sinusal; PA: 150x100; Fc 120; SaTO2; 80%O paciente encontra-se mais dispneico, cansado, sudoreico e com cianose labial. A enfermeira sugere que realize a IOT e começa a preparar o material... Porque a enfermeira está estressada com a realização da IOT nesse momento?",
+    options: ["Por causa do cansaço excessivo", "Por causa da hipóxia progressiva"],
+    answer: "Por causa da hipóxia progressiva",
   },
   {
     questionText:
-      "Preparou todos os recursos materiais?",
-    options: ["1. Sim", "2. Não"],
-    answer: "1. Sim",
+      "MONITORIZAÇÃO: Ritmo sinusal; PA: 150x100; Fc 120; SaTO2; 80%O paciente encontra-se mais dispneico, cansado, sudoreico e com cianose labial. A enfermeira sugere que realize a IOT e começa a preparar o material... Qual seria sua escolha medicamentosa para realizar a IOT nesse paciente?",
+    options: ["Hipnótico e RNM", "Midazolam e fentanyl"],
+    answer: "Hipnótico e RNM",
   },
   {
     questionText:
-      "Delegou as tarefas para o time?",
-    options: ["1. Sim", "2. Não"],
-    answer: "1. Sim",
+      "ATENÇÃO! A primeira tentativa de IOT não foi bem sucedida.... MONITORIZAÇÃO:Ritmo sinusal; PA: 90x50 Fc 120; SaTO2; 60%O paciente encontra-se agônico, sudoreico e com cianose labial. Quão emergencial é esta situação nesse momento?",
+    options: ["Muito emergencial", "Pouco emergencial"],
+    answer: "Muito emergencial",
   },
   {
     questionText:
-      "Tem fatores preditivos de via aérea difícil?",
-    options: ["1. Sim", "2. Não"],
-    answer: "1. Sim",
+      "ATENÇÃO! A primeira tentativa de IOT não foi bem sucedida.... MONITORIZAÇÃO:Ritmo sinusal; PA: 90x50 Fc 120; SaTO2; 60%O paciente encontra-se agônico, sudoreico e com cianose labial. Como você tentaria melhorar a hipóxia?",
+    options: ["Realizando nova IOT imediatamente", "Ventilando sob mascara facial"],
+    answer: "Ventilando sob mascara facial",
   },
   {
     questionText:
-      "Intubação bem-sucedida?",
-    options: ["1. Sim", "2. Não"],
-    answer: "1. Sim",
+      "ATENÇÃO! A primeira tentativa de IOT não foi bem sucedida.... MONITORIZAÇÃO:Ritmo sinusal; PA: 90x50 Fc 120; SaTO2; 60%O paciente encontra-se agônico, sudoreico e com cianose labial. Que ações poderiam ajudar durante a realização de uma nova tentativa de IOT?",
+    options: ["Modificar o posicionamento do paciente", "Aguardar chegar alguma  ajuda"],
+    answer: "Modificar o posicionamento do paciente",
   },
+  {
+    questionText:
+      "Após a segunda tentativa de IOT... O paciente encontra-se sedado, no ventilador mecânico e estável hemodinamicamente. MONITORIZAÇÃO: RITMO SINUSAL; PA: 120X90; FC: 100; SATO2: 95%. Retroativamente, como você caracterizaria essa situação ?",
+    options: ["Não intubo, mas ventilo", "Não intubo, não ventilo"],
+    answer: "Não intubo, mas ventilo",
+  },
+  
  
 ];
 
