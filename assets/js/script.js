@@ -1,7 +1,7 @@
 //store question text, options and answers in an array
 const questions = [
   {
-    questionText: "Imagem do paciente: Peso 85kg; pescoço curto e com pouca mobilidade. História de roncos e apneia do sono. Monitoração: Ritmo sinusal; PA: 130x90; Fc: 100; SaTO2: 92%. <b>Quão emergencial parece ser essa situação?</b>",
+    questionText: "Imagem do paciente: Peso 85kg; pescoço curto e com pouca mobilidade. História de roncos e apneia do sono. Monitoração: Ritmo sinusal; PA: 130x90; Fc: 100; SaTO2: 92%. QUÃO EMERGENCIAL PARECE SER ESSA SITUAÇÃO?",
     options: ["Muito emergencial", "Pouco emergencial"],
     answer: "Muito emergencial",
     
